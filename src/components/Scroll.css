@@ -1,0 +1,47 @@
+.Scroll {
+  overflow-y: auto;
+  border: 1px solid black;
+  height: 75vh;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-button {
+  width: 100px;
+  height: 100px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 39, 61, 1) 0%,
+    rgba(0, 177, 198, 1) 100%
+  );
+  border: 68px none #a20202;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(0, 158, 250) 0%,
+    rgb(0, 229, 255) 100%
+  );
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 65px none #da1b1b;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
